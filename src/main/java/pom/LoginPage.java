@@ -19,7 +19,7 @@ public class LoginPage {
 	@FindBy(xpath="//a[text()='Forgotten password?']")
 	private WebElement forgottenPassword;
 
-	@FindBy(xpath="(//a[@role='button'])[1]")
+	@FindBy(xpath="(//a[@role='button'])[2]")
 	private WebElement creatNewAccount;
 	
 	private WebDriver driver;
